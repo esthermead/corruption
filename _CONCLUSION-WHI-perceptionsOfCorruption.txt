@@ -1,0 +1,37 @@
+This was on jupyter notebook "MLPlinear2-WHI-perceptionsOfCorruption" or similar.
+
+OVERALL CONCLUSION:
+model works (without errors unless bcz overflow), but does not predict correctly.
+
+======MLPlinear2-WHI-perceptionsOfCorruption begin
+
+try these alphas, iterations combos (format=alpha, iterations, result(WHI_corruption.txt for perceptionsCorruption=0.41023576 and 0.8074066); true= 8081, 65109
+0.001, 2000, 
+0.001, 150000, 
+0.0025, 100, 
+0.003, 500, 
+0.003, 150000, 
+0.004, 666, 
+0.004, 150000, 
+0.005, 750, 321422.59, 374679.669
+0.01, 1500, 373180.12, 373333.969
+0.02, 3000, 540902.97, 366157.578
+0.04, 6000, 
+0.05, 7500, 935724.38, 349264.276
+0.05, 150000, 981905.61, 347288.311
+0.10, 15000, 
+0.10, 150000, 981905.61, 347288.311
+0.25, 37500, 
+0.25, 150000, 981905.61, 347288.311
+0.5, 150000, 981905.61, 347288.31
+1, 150000, 981905.61, 347288.311
+
+#i stopped here bcz even tho no errors, relationship is counterintuitive. try trimming outliers. and show below:
+
+try these alphas, iterations combos (format=alpha, iterations, result(WHI_corruption_outliers_trimmed.txt for perceptionsCorruption=0.41023576 and 0.8074066); true= 8081, 65109
+
+1, 150000, 981905.61, 347288.311
+
+#i stopped here bcz even tho no errors, relationship is counterintuitive.
+
+======MLPlinear2-WHI-perceptionsOfCorruption end.

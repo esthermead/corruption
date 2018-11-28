@@ -1,0 +1,29 @@
+This was on jupyter notebook "MLPlinear1-SPI-corruption" or similar.
+
+OVERALL CONCLUSION:
+model works (without errors unless bcz overflow), but does not predict correctly, but seems closer than others.
+
+
+===========MLPlinear1-SPI-corruption begin
+
+wasn't able to get this one to work at all. maybe i messed up some how.
+
+
+try these alphas, iterations combos (format=alpha, iterations, result(SPI_corruption_stdscaler_outliers_trimmed.txt for SPI_corruption=10 and 29); true= -0.7651485, 1.44999454 or -0.7911918
+0.001, 2000, overflow errors (even when use raw, stdscaler, or minmaxscaler)
+0.001, 150000, 
+0.0025, 100, 
+0.003, 500, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt" and 0.003, 500 . true for 10,29= 14555, 979435 or 3211 (predicted was 141964, 334938).
+0.003, 150000, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt" and 0.003, 500 . true for 10,29= 14555, 979435 or 3211 (predicted was 262378, 270124).
+0.004, 2000,  no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt". predicted was: 204239, 301418.
+0.004, 150000, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt". predicted was: 262378, 270124.
+0.005, 750, way to large numbers with "SPI_corruption_outliers_trimmed.txt".
+0.005, 150,000, overflow errors with "SPI_corruption_outliers_trimmed.txt".
+0.10, 15000, 
+0.25, 37500, 
+0.1, 150000, 
+
+
+===========MLPlinear1-SPI-corruption end
+
+
