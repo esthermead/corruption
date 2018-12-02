@@ -30,7 +30,9 @@ try these alphas, iterations combos (format=alpha, iterations, result(WHI_corrup
 
 try these alphas, iterations combos (format=alpha, iterations, result(WHI_corruption_outliers_trimmed.txt for perceptionsCorruption=0.41023576 and 0.8074066); true= 8081, 65109
 
-1, 150000, 981905.61, 347288.311
+
+0.003, 2000, 1856138, 206249. <--one shown in project presentation.
+1, 150000, 981905.61, 347288.311.
 
 #i stopped here bcz even tho no errors, relationship is counterintuitive.
 
