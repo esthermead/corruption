@@ -14,6 +14,7 @@ try these alphas, iterations combos (format=alpha, iterations, result(SPI_corrup
 0.001, 150000, 
 0.0025, 100, 
 0.003, 500, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt" and 0.003, 500 . true for 10,29= 14555, 979435 or 3211 (predicted was 141964, 334938).
+0.003, 2000, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt" and 0.003, 2000 . true for 10,29= 14555, 979435 or 3211 (predicted was 189637, 309277).
 0.003, 150000, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt" and 0.003, 500 . true for 10,29= 14555, 979435 or 3211 (predicted was 262378, 270124).
 0.004, 2000,  no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt". predicted was: 204239, 301418.
 0.004, 150000, no errors (except no contour line) when use "SPI_corruption_outliers_trimmed.txt". predicted was: 262378, 270124.
@@ -21,7 +22,7 @@ try these alphas, iterations combos (format=alpha, iterations, result(SPI_corrup
 0.005, 150,000, overflow errors with "SPI_corruption_outliers_trimmed.txt".
 0.10, 15000, 
 0.25, 37500, 
-0.1, 150000, 
+0.1, 150000, overflow errors with "SPI_corruption_outliers_trimmed.txt".
 
 
 ===========MLPlinear1-SPI-corruption end
